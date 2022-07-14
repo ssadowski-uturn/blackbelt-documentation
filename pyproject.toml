@@ -1,0 +1,23 @@
+[project]
+name = ""
+version = ""
+description = ""
+authors = [
+    {name = "Stephen Sadowski", email = "ssadowski@uturndata.com"},
+]
+dependencies = [
+    "diagrams>=0.21.1",
+]
+requires-python = ">=3.9"
+license = {text = "None"}
+[project.optional-dependencies]
+
+[tool.pdm]
+[tool.pdm.dev-dependencies]
+dev = [
+    "black>=22.6.0",
+]
+
+[build-system]
+requires = ["pdm-pep517>=0.12.0"]
+build-backend = "pdm.pep517.api"
